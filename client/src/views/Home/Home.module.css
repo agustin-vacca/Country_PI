@@ -1,0 +1,41 @@
+.containerCards{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 90%;
+    color: goldenrod;
+    font-size: 16px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+}
+
+.paginado{
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    padding: 2px;
+}
+
+.filtros{
+    background-color: goldenrod;
+    border-color: black;
+    border-radius: 5px;
+    display: inline-flex;
+    align-items: center;
+    color: rgba(37, 36, 36, 0.532);
+    font-weight: bold;
+    padding: 5px 20px 5px 20px;
+    font-family: 'inputMono', sans-serif;
+    margin: 4px 0px 15px 0px;
+}
+
+.selects{
+    border-radius: 5px;
+    border-color: #07648f;
+    padding: 3px;
+    margin: 8px;
+}

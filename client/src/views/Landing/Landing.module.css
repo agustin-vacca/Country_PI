@@ -1,0 +1,66 @@
+*{
+    font-family: 'inputMono', sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+
+    background-image: url(../../Images/Landing.jpg);
+    background-color: rgba(14, 12, 12, 0.4);
+    background-blend-mode: soft-light;
+    
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    
+}
+
+.container{
+    padding: 0px;
+    height: 49vmax;
+    width: 99vmax;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.make{
+    display: flex;
+    margin-top: -80px;
+    color: white;
+}
+
+.title{
+    display: flex;
+
+    color: white;
+}
+
+.button{
+    display: flex;
+    
+    
+    padding: 12px;
+    width: 190px;
+    cursor: pointer;
+    background: #87581a;
+    border-color: #87581a;
+    transition:  .5 ease;
+    border-radius: 10px;
+
+    color: white;
+    font-size: 16px;
+}
+
+.button:hover{
+    background: transparent;
+    border: 2px solid #87581a;
+    box-shadow: 0 0 10px 0 #87581a inset,
+                0 0 10px 4px #87581a;
+    border-radius: 10px;
+}

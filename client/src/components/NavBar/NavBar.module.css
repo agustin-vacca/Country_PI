@@ -1,0 +1,31 @@
+.mainCointeiner{
+    background-color: #6b5504;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    display: inline-flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.searchBar{
+    padding: 5px;
+    margin-top: 15px;  
+}
+
+.btnNav {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #FFCC33;
+    border-color: rgb(235, 174, 19);
+    color: rgb(131, 89, 33);
+    font-family: 'inputMono', sans-serif;
+    font-weight: 700;
+    font-size:medium;
+    
+}
+.btnNav:hover{
+    background-color: #07648f;
+    border-color: goldenrod;
+    color: antiquewhite;
+}

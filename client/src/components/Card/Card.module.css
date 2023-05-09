@@ -1,0 +1,35 @@
+.card{
+    border-radius: 3%;
+    background-color: rgba(34, 33, 33, 0.443);
+    height: 250px;
+    width: 270px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    margin: 15px;
+}
+
+.imgF{
+    border-radius: 4%;
+    width: 10em;
+    height: 5.5em;
+}
+
+.btnD {
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #FFCC33;
+    border-color: rgb(235, 174, 19);
+    color: rgb(131, 89, 33);
+    font-family: 'inputMono', sans-serif;
+    font-weight: 700;
+    font-size:medium;
+    margin-bottom: 10px;
+    
+}
+.btnD:hover{
+    background-color: #07648f;
+    border-color: goldenrod;
+    color: antiquewhite;
+}
