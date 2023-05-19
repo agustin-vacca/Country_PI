@@ -133,10 +133,10 @@ const Form =  () => {
                 <label className={style.campos}> Season:  </label>
                 <select className={style.inputs} name="season" value={form.season} onChange={(e) => handleSelect(e)} >
                 <option value="vacio"> </option>
-                        <option value={"Verano"}>Verano </option>
-                        <option value={"Invierno"}>Invierno </option>
-                        <option value={"Primavera"}>Primavera </option>
-                        <option value={"Otoño"}>Otoño </option>
+                        <option value={"Summer"}>Summer </option>
+                        <option value={"Winter"}>Winter </option>
+                        <option value={"Spring"}>Spring </option>
+                        <option value={"Autumn"}>Autumn </option>
                 </select>
                 { errors.season && <p className={style.error}> {errors.season} </p> }
             </div>

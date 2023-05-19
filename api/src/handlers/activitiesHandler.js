@@ -16,13 +16,16 @@ const postActivitiesHandler = async (req,res) => {
         const {name, difficulty, duration, season, countries} = req.body;
         const newActivity = await createActivity(name,difficulty, duration, season);
 
-        countries.forEach( async (id) => {
-            const country = await Country.findOne({
-                where: { id: {[Op.iLike]:`%${id}%`}}
-            })
-            console.log(country)
-            await country?.addActivities(newActivity)
-        })
+        console.log(countries[0]);
+
+        // const country = await Country.findOne({
+        //      where: { 
+        //         id: { [Op.iLike]: countries[0] }
+        //     }
+        // })
+        // console.log(country)
+        await newActivity.addActivities(countries[0])
+        
 
         res.status(201).json(newActivity);
     } catch (error) {

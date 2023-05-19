@@ -33,9 +33,9 @@ const Detail =  (props) => {
                     <h4 className={style.cont}>{country.continents}</h4>
                     <h4 className={style.id}>{country.id}</h4>
                     <h4 className={style.detalles}>Capital: {country.capital}</h4>
-                    <h4 className={style.detalles}>Región: {country.subregion}</h4>
-                    <h4 className={style.detalles}>Área: {country.area} km²</h4>
-                    <h4 className={style.detalles}>Población: {country.population} Hab.</h4>
+                    <h4 className={style.detalles}>Region: {country.subregion}</h4>
+                    <h4 className={style.detalles}>Area: {country.area} km²</h4>
+                    <h4 className={style.detalles}>Population: {country.population} Hab.</h4>
                 </div> : <p>Loading ...</p>
             }
 
