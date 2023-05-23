@@ -13,6 +13,8 @@ function App() {
 
   return (
     <div className="App">
+    {/*  <div name="App" className="text-4xl" >
+       <h1 className='text-2xl px-5' > hola </h1> */}
 
       { location.pathname !== "/" && <NavBar />}
       

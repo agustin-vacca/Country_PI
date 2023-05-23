@@ -1,4 +1,4 @@
-const {Activity} = require('../db');
+const {Activity, Country} = require('../db');
 
 // Version Completa y larga
 // const createActivity = async (name, difficulty, duration, season) => {
@@ -11,7 +11,15 @@ const createActivity =  (name, difficulty, duration, season) =>
     Activity.create({name, difficulty, duration, season});
 
 const getActivities = () => {
-    const activities = Activity.findAll();
+    const activities = Activity.findAll({
+        include: [
+            {
+                model: Country,
+                attributes: ["name"],
+                through:{attributes:[] }
+            }
+        ]
+    });
     return activities;
 }
 

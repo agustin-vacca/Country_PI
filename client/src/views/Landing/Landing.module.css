@@ -2,7 +2,7 @@
     font-family: 'inputMono', sans-serif;
 }
 
-body{
+.screen{
     margin: 0;
     padding: 0;
 
@@ -14,7 +14,7 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
-    
+
 }
 
 .container{
@@ -44,7 +44,6 @@ body{
 .button{
     display: flex;
     
-    
     padding: 12px;
     width: 190px;
     cursor: pointer;
@@ -64,3 +63,4 @@ body{
                 0 0 10px 4px #87581a;
     border-radius: 10px;
 }
+
