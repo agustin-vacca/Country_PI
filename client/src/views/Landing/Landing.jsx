@@ -4,12 +4,15 @@ import ImgSlider from "../../components/ImgSlider/ImgSlider";
 import img1 from "../../Images/alpes.jpg";
 import img2 from "../../Images/estados-unidos.jpg";
 import img3 from "../../Images/rural.jpg";
+import img4 from "../../Images/barcos.jpg";
+
 
 const Landing = () => {
   const slides = [
     { url: img1, title: "alpes" },
     { url: img2, title: "ee-uu" },
     { url: img3, title: "rural" },
+    { url: img4, title: "barcos" },
   ];
 
   return (
