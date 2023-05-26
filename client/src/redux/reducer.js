@@ -1,4 +1,4 @@
-import { GET_COUNTRIES, GET_COUNTRY_BY_NAME, GET_COUNTRY, ORDER_ALPHABETICAL, ORDER_BY_POP, ORDER_BY_CONT, FILTER_BY_ACT, GET_ACTIVITIES, CAMBIO } from "./actions";
+import { GET_COUNTRIES, GET_COUNTRY_BY_NAME, GET_COUNTRY, ORDER_ALPHABETICAL, ORDER_BY_POP, ORDER_BY_CONT, FILTER_BY_ACT, GET_ACTIVITIES } from "./actions";
 
 const initialState = {
     paises: [],
@@ -89,12 +89,6 @@ const rootReducer = (state = initialState, action) => {
                  ...state,
                  countries: filtro,
         }
-
-        // case CAMBIO:
-        //     const nuevo = state.paises
-        //     const nuevo2 = nuevo.filter( e => {
-        //         e.Activities
-        //     })
 
 		default:
             return {...state};

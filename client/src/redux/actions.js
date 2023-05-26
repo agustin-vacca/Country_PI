@@ -8,7 +8,6 @@ export const ORDER_BY_POP = "ORDER_BY_POP";
 export const ORDER_BY_CONT = "ORDER_BY_CONT";
 export const GET_ACTIVITIES = "GET_ACTIVITIES";
 export const FILTER_BY_ACT = "FILTER_BY_ACT";
-export const CAMBIO = "CAMBIO";
 
 export const getCountries = () => {
     return async function(dispatch){
@@ -57,8 +56,4 @@ export const getActivities = () => {
 
 export const filterByAct = (option) => {
     return {type: FILTER_BY_ACT, payload: option}
-}
-
-export const cambio = (option) => {
-    return {type: CAMBIO, payload: option}
 }
